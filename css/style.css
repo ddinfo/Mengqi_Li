@@ -1,5 +1,5 @@
 
-h4, h5, h6,
+h4, h5, h6, h7,
 h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0; padding:0;}
 p {margin: 0;}
@@ -122,6 +122,14 @@ address span{
 	margin-bottom:6px;
 	font-family: 'Varela Round', sans-serif;
 }
+
+.education_details h7{
+	color:#333;
+	font-weight:600;
+	margin-bottom:0.5em;
+	display:inline-block;
+}
+
 .company_details h4 span,.education_details h4 span{
 	font-size: 0.65em;
   margin-left: 5px;
@@ -161,11 +169,23 @@ address span{
 	margin-bottom:1em;
 	display:inline-block;
 }
-.skill1 ul,.skill2 ul{
+.skill1 ul,.skill2 ul, .education_details ul{
 	padding-left:4em;
 }
-.skill1 ul li,.skill2 ul li{
+.skill1 ul li,.skill2 ul li, .education_details ul li{
 	color:#333;
+}
+.skill1 ul li span,.skill2 ul li span, .education_details ul li span{
+	font-size: 1em;
+	margin-left: 5px;
+	color: #900;
+	font-weight:400;
+}
+
+.education_details ul p{
+	font-size: 0.8em;
+	color: #006622;
+	font-weight:400;
 }
 .education  h3{
   background: #999;
