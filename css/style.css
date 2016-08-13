@@ -183,7 +183,13 @@ address span{
 }
 
 .education_details ul p{
-	font-size: 0.8em;
+	font-size: 0.9em;
+	color: #999900;
+	font-weight:400;
+}
+
+.education_details ul p span{
+	font-size: 1em;
 	color: #006622;
 	font-weight:400;
 }
