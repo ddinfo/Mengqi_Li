@@ -21,7 +21,7 @@ window.onload = function(){
 	}
 	
 	//运动的文字
-	var str ="javascript html5 canvas";
+	var str ="くじょうかれんクジョウカレン";
 	//4:fillText(str,x,y);原理就是去更改y的坐标位置
 	//绘画的函数
 	function draw(){
