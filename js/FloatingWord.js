@@ -56,4 +56,11 @@ window.onload = function(){
 	setInterval(draw,30);
 };
 
+window.addEventListener("resize", resizeCanvas, false);
+
+function resizeCanvas() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+}
+
 	
